@@ -17,7 +17,7 @@ export default function HomeScreen() {
     const startOfToday = new Date(
       now.getFullYear(),
       now.getMonth(),
-      now.getDate()
+      now.getDate(),
     ).getTime();
 
     return {
@@ -33,7 +33,7 @@ export default function HomeScreen() {
   return (
     <ScrollView className="flex-1 bg-gray-50 px-4 pt-6">
       <Text className="mb-1 text-2xl font-bold text-gray-900">
-        Game Schedule
+        Horario de Juegos
       </Text>
       <Text className="mb-6 text-sm text-gray-500">
         Organiza tus horarios de juego y torneos
