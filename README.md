@@ -1,4 +1,5 @@
 # game-schedule
+
 Horarios y torneos
 
 App en React Native + Expo para organizar tus horarios de juego y torneos: anota cuándo vas a jugar, con quién, y lleva el registro de las rondas de tus torneos.
@@ -27,4 +28,3 @@ src/
   storage/      # capa de persistencia (AsyncStorage)
   utils/        # utilidades varias
 ```
-

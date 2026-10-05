@@ -14,15 +14,13 @@ export interface GameSchedule {
   /** Si viene de un torneo, referencia al torneo y ronda */
   tournamentId?: UUID;
   roundId?: UUID;
-  /** Id de la notificación local programada para recordar este horario, si hay una activa. */
-  notificationId?: string;
   createdAt: string;
   updatedAt: string;
 }
 
 export type GameScheduleInput = Omit<
   GameSchedule,
-  "id" | "createdAt" | "updatedAt" | "notificationId"
+  "id" | "createdAt" | "updatedAt"
 >;
 
 export interface TournamentRound {
