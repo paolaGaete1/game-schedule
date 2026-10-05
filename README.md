@@ -51,3 +51,5 @@ src/
 ```
 
 ## Las notificaciones fallan en Expo Go principalmente porque Expo eliminó el soporte del módulo expo-notifications dentro de la app estándar de Expo Go a partir de SDK 53.
+
+## Esta app es sencilla, es ams como un esquema, proximamente estara en android en mi repositorio mucho mas mejorado con fondos y estructura mas acorde a lo que quiero.
